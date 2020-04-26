@@ -40,15 +40,14 @@ function App() {
             <Card binaryNumber={5} />
           </div>
         </div>
-        <div className="mt-4" >
+        <div className="text-center mb-5">
           <button
-            className="d-inline mb-5"
             onClick={() => {
               setToggle(!toggle)
             }}>
             Read My Mind
           </button>
-          <p className={toggle ? 'd-inline font-weight-bold ml-3' : 'd-none font-weight-bold ml-3'}>
+          <p className={toggle ? 'font-weight-bold my-3' : 'd-none font-weight-bold my-3'}>
             {msg}
           </p>
         </div>
